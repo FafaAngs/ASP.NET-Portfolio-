@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: aspnet-portfolio
+    env: aspnet
+    build:
+      dockerfile: Dockerfile
+    plan: free
+    branches:
+      - main
