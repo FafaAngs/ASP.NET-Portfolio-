@@ -1,6 +1,6 @@
 services:
   - type: web
     name: aspnet-portfolio
-    env: aspnet
+    env: ruby    # This needs to be replaced with `dotnet`
     plan: free
     startCommand: dotnet Portfolio.dll
