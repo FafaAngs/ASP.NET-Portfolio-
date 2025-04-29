@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Portfolio\publish\Portfolio.exe
+C:\Users\User\source\repos\Portfolio\publish\appsettings.Development.json
+C:\Users\User\source\repos\Portfolio\publish\appsettings.json
+C:\Users\User\source\repos\Portfolio\publish\Portfolio.dll
+C:\Users\User\source\repos\Portfolio\publish\Portfolio.deps.json
+C:\Users\User\source\repos\Portfolio\publish\Portfolio.runtimeconfig.json
+C:\Users\User\source\repos\Portfolio\publish\Portfolio.pdb
