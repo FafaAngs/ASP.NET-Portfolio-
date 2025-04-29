@@ -1,8 +1,7 @@
 services:
   - type: web
     name: aspnet-portfolio
-    env: dotnet
+    env: docker
     plan: free
-    startCommand: dotnet Portfolio.dll
-    buildCommand: dotnet publish -c Release -o out
-    rootDir: .
+    branch: main
+    dockerfilePath: ./Dockerfile
