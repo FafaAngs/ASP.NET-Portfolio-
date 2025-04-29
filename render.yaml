@@ -4,4 +4,4 @@ services:
     env: docker
     plan: free
     branch: main
-    dockerfilePath: ./Dockerfile
+    repo: https://github.com/FafaAngs/ASP.NET-Portfolio-.git
