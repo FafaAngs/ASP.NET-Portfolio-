@@ -2,5 +2,5 @@ services:
   - type: web
     name: aspnet-portfolio
     env: aspnet
-    dockerfilePath: Dockerfile
     plan: free
+    startCommand: dotnet Portfolio.dll
