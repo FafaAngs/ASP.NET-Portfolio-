@@ -1,6 +1,8 @@
 services:
   - type: web
     name: aspnet-portfolio
-    env: ruby    # This needs to be replaced with `dotnet`
+    env: dotnet
     plan: free
     startCommand: dotnet Portfolio.dll
+    buildCommand: dotnet publish -c Release -o out
+    rootDir: .
