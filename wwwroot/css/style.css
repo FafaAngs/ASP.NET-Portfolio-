@@ -1000,6 +1000,7 @@ img.img-fluid {
     .slicknav_nav ul {
         margin: 0;
         padding: 10px 30px;
+        text-align: center;
     }
 
     .slicknav_nav .slicknav_row,
@@ -1022,10 +1023,7 @@ img.img-fluid {
             color: #111111;
         }
 
-    .slicknav_nav {
-        background: #222222;
-    }
-
+   
     .slicknav_btn {
         position: absolute;
         right: 10px;
@@ -1077,7 +1075,9 @@ img.img-fluid {
     .slicknav_nav ul {
         margin: 0;
         padding: 10px 30px;
+        text-align: center; 
     }
+
 
     .slicknav_nav .slicknav_row,
     .slicknav_nav a {
@@ -1160,3 +1160,17 @@ img.img-fluid {
         max-width: 1200px !important;
     }
 }
+.slicknav_nav {
+    clear: both;
+    color: #fff;
+    margin: 0;
+    font-size: .875em;
+    background-color: #1b231a;
+    width: 30%;
+    position: absolute; 
+    right: 0; 
+}
+
+
+
+
