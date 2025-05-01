@@ -18,8 +18,21 @@ namespace Portfolio.Controllers
             return View();
         }
 
+        public IActionResult about()
+        {
+            return View();
+        }
 
 
+        public IActionResult certificates()
+        {
+            return View();
+        }
+
+        public IActionResult services()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

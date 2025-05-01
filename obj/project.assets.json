@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\Portfolio.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\Portfolio.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

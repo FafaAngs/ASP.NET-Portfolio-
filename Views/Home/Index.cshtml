@@ -1,133 +1,142 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-   
-</head>
-<body>
+﻿@{
+    Layout = "_Layout";
+      
+    ViewData["Title"] = "Home";
+    
+}
 
-    <nav class="nav">
-        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-        <ul class="nav-menu">
-            <li><a href="#abt">About Me</a></li>
-            <li><a href="#wor">Work Experience</a></li>
-            <li><a href="#educ">Educational Attainment</a></li> 
-            <li><a href="#skillz">Skills</a></li>
-            <li><a href="#exer">Exercises</a></li>
-            <li><a href="#portfolio">Projects</a></li>
-        </ul>
-    </nav>
+<section class="hero">
+    <div class="visualSlider owl-carousel">
+        <div class="visual set-bg" data-setbg="@Url.Content("~/images/home/gamedevpic.png")">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="visualslidertext gamedev">
+                            <h2>Game Development</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="visual set-bg" data-setbg="@Url.Content("~/images/home/appdevpic.png")">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="visualslidertext ">
+                            <h2>Application Development</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="visual set-bg" data-setbg="@Url.Content("~/images/home/webdevpic.jpg")">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="visualslidertext ">
+                            <h2>Website Development</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="homespad">
+    <div class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 gif">
+                    <img src="@Url.Content("~/images/home/code.gif")" alt="GIF animation" class="gif-image" />
+                    <img src="@Url.Content("~/images/home/typing.png")" class="homepic" loading="lazy" />
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="homeservicesicon">
+                                    <img src="@Url.Content("~/images/progPic/app-development.png")" alt="App Development" />
+                                </div>
+                                <h4>Back-End Development</h4>
+                                <p>I offer robust back-end solutions for dynamic websites and web applications. From setting up databases to server management, I work with Node.js, Python, and PHP to create powerful and scalable back-end systems.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="homeservicesicon">
+                                    <img src="@Url.Content("~/images/progPic/html.png")" alt="HTML Development" />
+                                </div>
+                                <h4>Web Development</h4>
+                                <p>I build fast, responsive websites with a focus on user experience. Whether you need a personal website, a business site, or a blog, I provide end-to-end development services, including front-end and back-end development.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="homeservicesicon">
+                                    <img src="@Url.Content("~/images/progPic/system-development.png")" alt="System Development" />
+                                </div>
+                                <h4>Front-End Development</h4>
+                                <p>I specialize in creating visually appealing and interactive front-end experiences. Using HTML, CSS, JavaScript, and modern frameworks like React, I bring your designs to life with smooth, functional interfaces.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="homeservicesicon">
+                                    <img src="@Url.Content("~/images/progPic/game-development.png")" alt="Game Development" />
+                                </div>
+                                <h4>Game Development</h4>
+                                <p>I create immersive 2D and 3D games for mobile and desktop platforms. From concept to completion, I handle all aspects of game development, including game mechanics, animation, and deployment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="boxcontainer spad">
     <div class="container">
-        <section id="abt">
-            <img src="~/images/mypic.jpg" alt="Profile Picture" width="150" class="profile" />
-            <h1>ANGILBERT ANGCON</h1>
-            <p>Yati Lilo-an, Cebu</p>
-            <p>09661435400</p>
-            <p>angilbertzkie@gmail.com</p>
-        </section>
-
-        <section id="wtf">
-            <h2>About Me</h2>
-            <hr />
-            <p>I'm a Game Developer who makes 2D/3D games, websites, and apps. I use Java, C#, Unity 3D, and Unreal Engine to create fun and exciting experiences.</p>
-        </section>
-
-        <section id="wor">
-            <h2>Work Experience</h2>
-            <hr />
-            <p><strong>Unity Game Developer</strong> - Indie (2020 - Present)</p>
-            <p>Creates 2D/3D games in Unity, focusing on gameplay, UI, and performance optimization.</p>
-            <hr />
-            <p><strong>Unreal Engine Game Developer</strong> - Indie (2020 - Present)</p>
-            <p>Develops immersive 3D games using Unreal Engine, specializing in Blueprints and C++ for gameplay and visuals.</p>
-        </section>
-
-        <section id="educ">
-            <h2>Educational Attainment</h2>
-            <hr />
-            <p><strong>Bachelor of Science in Information Technology</strong></p>
-            <p>Cebu Technological University, 2022</p>
-            <hr />
-            <p><strong>ICT - Programming</strong></p>
-            <p>Informatics Computer Institute, Graduated: 2020</p>
-        </section>
-
-        <section id="skillz">
-            <h2>Skills</h2>
-            <div class="skills">
-                <div class="skillbox">
-                    <img src="~/images/game-development.jpg" alt="game-development" />
-                    <h4>Game Development</h4>
-                    <div id="game"><span>30%</span></div>
+        <div class="row">
+            <div class="quotesSlider owl-carousel">
+                <div class="col-lg-4">
+                    <div class="quotesbox boxitem">
+                        <h4>"Coding like poetry, it must be short and clear."</h4>
+                        <ul><li>– Santosh Kalwar</li></ul>
+                    </div>
                 </div>
-
-                <div class="skillbox">
-                    <img src="~/images/html.jpg" alt="html" />
-                    <h4>Website Development</h4>
-                    <div id="web"><span>80%</span></div>
+                <div class="col-lg-4">
+                    <div class="quotesbox boxitem">
+                        <h4>"It’s not a bug; it’s an undocumented feature"</h4>
+                        <ul><li>― Anonymous</li></ul>
+                    </div>
                 </div>
-
-                <div class="skillbox">
-                    <img src="~/images/system-development.jpg" alt="system-development" />
-                    <h4>System Development</h4>
-                    <div id="system"><span>55%</span></div>
-                </div>
-
-                <div class="skillbox">
-                    <img src="~/images/video-edition.jpg" alt="video-edition" />
-                    <h4>Video Editing</h4>
-                    <div id="video"><span>60%</span></div>
-                </div>
-
-                <div class="skillbox">
-                    <img src="~/images/app-development.jpg" alt="app-development" />
-                    <h4>Application Development</h4>
-                    <div id="app"><span>70%</span></div>
-                </div>
-
-                <div class="skillbox">
-                    <img src="~/images/cybersecurity.jpg" alt="cyber-security" />
-                    <h4>Cybersecurity</h4>
-                    <div id="sec"><span>30%</span></div>
+                <div class="col-lg-4">
+                    <div class="quotesbox boxitem">
+                        <h4>"First, solve the problem. Then, write the code"</h4>
+                        <ul><li>– John Johnson</li></ul>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <section id="exer">
-            <h2>Exercises</h2>
-            <p>TBA</p>
-            <p>TBA</p>
-        </section>
-
-        <section id="portfolio">
-            <h3 style="text-align: center; margin-bottom: 10px;">Project</h3>
-            <div class="portfolio-grid">
-                <a href="https://angcon.likesyou.org"><div class="portfolio-box">Project001</div></a>
-                <a href="#"><div class="portfolio-box">Project002</div></a>
-                <a href="#"><div class="portfolio-box">Project003</div></a>
-                <a href="#"><div class="portfolio-box">Project004</div></a>
-                <a href="#"><div class="portfolio-box">Project005</div></a>
-                <a href="#"><div class="portfolio-box">Project006</div></a>
-                <a href="#"><div class="portfolio-box">Project007</div></a>
-                <a href="#"><div class="portfolio-box">Project008</div></a>
-                <a href="#"><div class="portfolio-box">Project009</div></a>
-                <a href="#"><div class="portfolio-box">Project010</div></a>
-                <a href="#"><div class="portfolio-box">Project011</div></a>
-                <a href="#"><div class="portfolio-box">Project012</div></a>
-                <a href="#"><div class="portfolio-box">Project013</div></a>
-                <a href="#"><div class="portfolio-box">Project014</div></a>
-                <a href="#"><div class="portfolio-box">Project015</div></a>
+<section class="spad set-bg" data-setbg="@Url.Content("~/images/progPic/taglinebanner.PNG")">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="textfooterhome">
+                    <h2>Be somebody nobody thought you could be.</h2>
+                </div>
             </div>
-        </section>
+        </div>
     </div>
-
-    <div class="footer">
-        <p>&copy; 2025 Angilbert Angcon. All rights reserved.</p>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+</section>

@@ -1,275 +1,475 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\gamecss.css",
+      "PackagePath": "staticwebassets\\css\\gamecss.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\preloadforgamecss.css",
+      "PackagePath": "staticwebassets\\css\\preloadforgamecss.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\app-development.jpg",
-      "PackagePath": "staticwebassets\\images\\app-development.jpg"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\aalogo.png",
+      "PackagePath": "staticwebassets\\images\\aalogo.png"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\cybersecurity.jpg",
-      "PackagePath": "staticwebassets\\images\\cybersecurity.jpg"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\about\\prog.PNG",
+      "PackagePath": "staticwebassets\\images\\about\\prog.PNG"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\game-development.jpg",
-      "PackagePath": "staticwebassets\\images\\game-development.jpg"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\about\\prog2.PNG",
+      "PackagePath": "staticwebassets\\images\\about\\prog2.PNG"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\green.gif",
-      "PackagePath": "staticwebassets\\images\\green.gif"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\cert\\cert1.jpeg",
+      "PackagePath": "staticwebassets\\images\\cert\\cert1.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\html.jpg",
-      "PackagePath": "staticwebassets\\images\\html.jpg"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\cert\\cert2.jpeg",
+      "PackagePath": "staticwebassets\\images\\cert\\cert2.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\mypic.jpg",
-      "PackagePath": "staticwebassets\\images\\mypic.jpg"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\cert\\cert4.PNG",
+      "PackagePath": "staticwebassets\\images\\cert\\cert4.PNG"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\system-development.jpg",
-      "PackagePath": "staticwebassets\\images\\system-development.jpg"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\cert\\cert5.PNG",
+      "PackagePath": "staticwebassets\\images\\cert\\cert5.PNG"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\video-edition.jpg",
-      "PackagePath": "staticwebassets\\images\\video-edition.jpg"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\cert\\cert6.jpeg",
+      "PackagePath": "staticwebassets\\images\\cert\\cert6.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\cert\\cert7.jpeg",
+      "PackagePath": "staticwebassets\\images\\cert\\cert7.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\cert\\cert8.PNG",
+      "PackagePath": "staticwebassets\\images\\cert\\cert8.PNG"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\cert\\memine.jpg",
+      "PackagePath": "staticwebassets\\images\\cert\\memine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\headergreen.jpg",
+      "PackagePath": "staticwebassets\\images\\headergreen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\home\\appdevpic.png",
+      "PackagePath": "staticwebassets\\images\\home\\appdevpic.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\home\\code.gif",
+      "PackagePath": "staticwebassets\\images\\home\\code.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\home\\gamedevpic.png",
+      "PackagePath": "staticwebassets\\images\\home\\gamedevpic.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\home\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\hero-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\home\\typing.png",
+      "PackagePath": "staticwebassets\\images\\home\\typing.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\home\\webdevpic.jpg",
+      "PackagePath": "staticwebassets\\images\\home\\webdevpic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\midgreen.jpg",
+      "PackagePath": "staticwebassets\\images\\midgreen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\1.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\2048gif.gif",
+      "PackagePath": "staticwebassets\\images\\progPic\\2048gif.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\app-development.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\app-development.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\c++.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\c++.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\c.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\c.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\csharp.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\csharp.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\cyber-security.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\cyber-security.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\discord.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\discord.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\emaill.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\emaill.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\facebook.jpg",
+      "PackagePath": "staticwebassets\\images\\progPic\\facebook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\game-development.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\game-development.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\html.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\html.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\java.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\java.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\js.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\js.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\logobig.jpg",
+      "PackagePath": "staticwebassets\\images\\progPic\\logobig.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\php.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\php.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\system-development.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\system-development.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\taglinebanner.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\taglinebanner.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\unity.jpg",
+      "PackagePath": "staticwebassets\\images\\progPic\\unity.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\unity.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\unity.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\images\\progPic\\video-edition.png",
+      "PackagePath": "staticwebassets\\images\\progPic\\video-edition.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\js\\connector.js",
+      "PackagePath": "staticwebassets\\js\\connector.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\js\\logic.js",
+      "PackagePath": "staticwebassets\\js\\logic.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\User\\source\\repos\\Portfolio\\PortfolioV2\\.github\\ASP.NET-Portfolio-\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
