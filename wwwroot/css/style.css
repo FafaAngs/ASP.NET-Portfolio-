@@ -1125,15 +1125,17 @@ img.img-fluid {
 
 .grid-sizer {
     width: calc(50% - 10px);
+}       
+.pagestitletext h2 {
+    font-size: 2rem;
 }
-
-
 
 .certfilter li {
     margin-bottom: 10px;
 }
 
 }
+
 /* 320px */
 @media only screen and (max-width: 479px) {
     .visualslidertext h2 {
