@@ -331,7 +331,7 @@ ol {
         margin: 0 5px;
         display: inline-block;
         cursor: pointer;
-        opacity: 0.6; /* Slight opacity for inactive dots */
+        opacity: 0.6; 
     }
 
 
@@ -944,7 +944,7 @@ img.img-fluid {
     }
 }
 
-/* Medium Device = 1200px */
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .HeaderNavMenu {
         margin-right: 25px;

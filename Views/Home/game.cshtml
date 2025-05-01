@@ -13,8 +13,11 @@
 
     <title> Angilbert 2048 Game </title>
 
-    <link rel="stylesheet" type="text/css" href="css/gamecss.css">
-    <link rel="stylesheet" href="css/preloadforgamecss.css" type="text/css">
+ 
+    <link rel="stylesheet" href="@Url.Content("~/css/gamecss.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/preloadforgamecss.css")" />
+
+   
 
 </head>
 <body>
@@ -22,12 +25,7 @@
         <div class="loader"></div>
     </div>
 
-    <!--
-
-    -Paired tags( opening tag and closing tag) <tag></tag>
-    -Self closing tags < hr>
-
-     -->
+    
     <h1>2048</h1>
     <h2>Created By: Angilbert Angcon</h2>
 
@@ -40,12 +38,13 @@
     </div>
 
 
-    <script type="text/javascript" src="js/logic.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/connector.js"></script>
+ 
+    <script src="@Url.Content("~/js/logic.js")"></script>
+    <script src="@Url.Content("~/js/jquery-3.3.1.min.js")"></script>
+    <script src="@Url.Content("~/js/connector.js")"></script>
     <br>
     <div class="center-container">
-        <a href="./about.html" target="" class="stylish-link">
+        <a href="/Home/Index" target="" class="stylish-link">
             Click here to Return
         </a>
     </div>
