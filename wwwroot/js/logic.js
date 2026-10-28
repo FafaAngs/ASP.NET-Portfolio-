@@ -1,7 +1,7 @@
 let board;
-let score = 0;
-const rows = 4;
-const columns = 4;
+let score =0;
+let rows=4;
+let columns =4;
 
 
 // This variables will be used to monitor if the user already won once in the value of 2048, 4096, or 8192
@@ -12,91 +12,87 @@ let is4096Exist = false;
 let is8192Exist = false;
 
 
-function setGame() {
-    board = Array.from({ length: rows }, () => Array(columns).fill(0));
-    const boardElement = document.getElementById("board");
-    boardElement.replaceChildren();
+function setGame(){
+	board=
 
-    for (let r = 0; r < rows; r++) {
-        for (let c = 0; c < columns; c++) {
-            const tile = document.createElement("div");
-            tile.id = `${r}-${c}`;
-            tile.setAttribute("role", "gridcell");
-            updateTile(tile, 0);
-            boardElement.append(tile);
-        }
-    }
+	  [ [ 0,0,0,0],
+		[ 0,0,0,0],
+		[ 0,0,0,0],
+		[ 0,0,0,0]
 
-    setTwo();
-    setTwo();
-    render();
+		];
+
+	for(let r=0; r <rows;r++){
+		for(let c=0; c<columns; c++){
+			let tile = document.createElement("div");
+			tile.id = r.toString() +"-"+c.toString();
+			let num = board[r][c];
+			updateTile(tile,num);
+			document.getElementById("board").append(tile);
+		}
+	}
+
+
+	setTwo();
+	setTwo();
 }
 
-function updateTile(tile, num) {
-    tile.textContent = num || "";
-    tile.className = "tile";
-    if (num > 0) {
-        tile.classList.add(`x${Math.min(num, 8192)}`);
-        tile.setAttribute("aria-label", num.toString());
-    } else {
-        tile.setAttribute("aria-label", "empty");
-    }
+function updateTile(tile,num){
+	tile.innerText = "";
+	tile.classList.value="";
+	tile.classList.add("tile");
+	if(num>0){
+		tile.innerText = num.toString();
+		if(num<8192){
+			tile.classList.add("x"+num.toString());
+		}
+		else{
+			tile.classList.add("8192");
+		}
+	}
 }
-window.addEventListener("load", setGame);
-document.addEventListener("keydown", handleSlide);
-document.getElementById("restart-button").addEventListener("click", restartGame);
-document.querySelectorAll("[data-direction]").forEach((button) => {
-    button.addEventListener("click", () => move(button.dataset.direction));
-});
-
-let touchStart;
-const gameBoard = document.getElementById("board");
-gameBoard.addEventListener("touchstart", (event) => {
-    touchStart = event.changedTouches[0];
-}, { passive: true });
-gameBoard.addEventListener("touchend", (event) => {
-    if (!touchStart) return;
-    const touchEnd = event.changedTouches[0];
-    const horizontal = touchEnd.clientX - touchStart.clientX;
-    const vertical = touchEnd.clientY - touchStart.clientY;
-    if (Math.max(Math.abs(horizontal), Math.abs(vertical)) < 30) return;
-    move(Math.abs(horizontal) > Math.abs(vertical) ? (horizontal > 0 ? "right" : "left") : (vertical > 0 ? "down" : "up"));
-    touchStart = undefined;
-}, { passive: true });
-
-function handleSlide(event) {
-    const directions = { ArrowLeft: "left", ArrowRight: "right", ArrowUp: "up", ArrowDown: "down" };
-    if (directions[event.code]) {
-        event.preventDefault();
-        move(directions[event.code]);
-    }
+window.onload = function(){
+setGame();
 }
 
-function move(direction) {
-    const before = JSON.stringify(board);
-    if (direction === "left") slideLeft();
-    if (direction === "right") slideRight();
-    if (direction === "up") slideUp();
-    if (direction === "down") slideDown();
+function handleSlide(e){
+	console.log(e.key);
+	if(["ArrowLeft", "ArrowRight","ArrowUp","ArrowDown"].includes(e.code)){
 
-    if (JSON.stringify(board) !== before) setTwo();
-    render();
-    checkWin();
-    if (hasLost()) showMessage("No moves left. Start a new game to try again.");
+		
+
+		if(e.code=="ArrowLeft"){
+			slideLeft();
+			setTwo();
+
+		}
+		if(e.code=="ArrowRight"){
+			slideRight();
+			setTwo();
+		}
+		if(e.code=="ArrowUp"){
+			slideUp();
+			setTwo();
+		}
+		if(e.code=="ArrowDown"){
+			slideDown();
+			setTwo();
+		}
+	}
+
+	checkWin();
+  document.getElementById("score").innerText = score;
+		if(hasLost()==true){
+			setTimeout(()=> {alert("Game Over!You have lost the game .Game will restart");restartGame();alert("Click any arrow key to restart")},100);
+
+
+		}
 }
 
-function render() {
-    for (let r = 0; r < rows; r++) {
-        for (let c = 0; c < columns; c++) {
-            updateTile(document.getElementById(`${r}-${c}`), board[r][c]);
-        }
-    }
-    document.getElementById("score").textContent = score;
-}
 
-function showMessage(message) {
-    document.getElementById("game-message").textContent = message;
-}
+
+
+document.addEventListener("keydown",handleSlide);
 
 function slideLeft(){
 
@@ -229,7 +225,9 @@ function setTwo(){
 			board[r][c] = 2;
 			let tile = document.getElementById(r.toString() + "-" + c.toString());
 
-			updateTile(tile, 2);
+			// <div class="x2">2</div>
+			tile.innerText = "2";
+			tile.classList.add("x2");
 
 			found = true;
 		}	
@@ -240,15 +238,15 @@ function checkWin(){
 	for(let r=0; r<rows; r++){
 		for(let c=0; c<columns; c++){
 			if(board[r][c] == 2048 && is2048Exist == false){
-				showMessage("You reached 2048. Great work!");
+				alert("You Win! You got the 2048");
 				is2048Exist = true;
 			}
 			else if(board[r][c] == 4096 && is4096Exist == false){
-				showMessage("You reached 4096. Keep going!");
+				alert("You are unstoppable at 4096! You are fantastically unstoppable!");
 				is4096Exist = true;
 			}
 			else if(board[r][c] == 8192 && is8192Exist == false){
-				showMessage("You reached 8192. Incredible!");
+				alert("Victory! You have reached 8192! You are incredibly awesome!");
 				is8192Exist = true;
 			}
 		}
@@ -273,7 +271,7 @@ function hasLost(){
 				r > 0 && board[r-1][c] === currentTile || // to check if the current tile matches to the upper tile
 				r < 3 && board[r+1][c] === currentTile || // to check if the current tile matches to the lower tile
 				c > 0 && board[r][c-1] === currentTile || // to check if the current tile matches to the left tile
-				c < columns - 1 && board[r][c+1] === currentTile // to check if the current tile matches to the right tile
+				c > 3 && board[r][c+1] === currentTile // to check if the current tile matches to the right tile
 			){
 				return false;
 			}
@@ -294,12 +292,21 @@ function hasLost(){
 
 
 function restartGame(){
-    score = 0;
-    is2048Exist = false;
-    is4096Exist = false;
-    is8192Exist = false;
-    showMessage("");
-    setGame();
+	board=
+
+	  [ [ 0,0,0,0],
+		[ 0,0,0,0],
+		[ 0,0,0,0],
+		[ 0,0,0,0]
+
+		];
+
+
+
+      score=0;
+	  setTwo();
+
+
 }
 
 

@@ -6,38 +6,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="A browser-based 2048 game by Angilbert Angcon." />
-    <title>2048 | Angilbert Angcon</title>
-    <link rel="stylesheet" href="~/css/gamecss.css" />
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Angilbert 2048 Game </title>
+
+ 
+    <link rel="stylesheet" href="@Url.Content("~/css/gamecss.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/preloadforgamecss.css")" />
+
+   
+
 </head>
-<body class="game-page">
-    <main class="game-shell">
-        <a class="back-link" asp-controller="Home" asp-action="Index">← Back to portfolio</a>
-        <div class="game-header">
-            <div>
-                <p class="eyebrow">A small browser game</p>
-                <h1>2048</h1>
-                <p>Use the arrow keys, swipe, or the buttons to combine matching tiles.</p>
-            </div>
-            <div class="score-panel" aria-live="polite"><span>Score</span><strong id="score">0</strong></div>
-        </div>
+<body>
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
 
-        <div id="game-message" class="game-message" role="status" aria-live="polite"></div>
-        <div id="board" class="board" role="grid" aria-label="2048 game board"></div>
+    
+    <h1>2048</h1>
+    <h2>Created By: Angilbert Angcon</h2>
 
-        <div class="game-actions">
-            <button id="restart-button" type="button">New game</button>
-        </div>
-        <div class="game-controls" aria-label="Game controls">
-            <button type="button" data-direction="up" aria-label="Move up">↑</button>
-            <button type="button" data-direction="left" aria-label="Move left">←</button>
-            <button type="button" data-direction="down" aria-label="Move down">↓</button>
-            <button type="button" data-direction="right" aria-label="Move right">→</button>
-        </div>
-    </main>
+    <hr>
+    <h2>Score: <span id="score">0</span></h2>
 
-    <script src="~/js/logic.js"></script>
+
+
+    <div id="board">
+    </div>
+
+
+ 
+    <script src="@Url.Content("~/js/logic.js")"></script>
+    <script src="@Url.Content("~/js/jquery-3.3.1.min.js")"></script>
+    <script src="@Url.Content("~/js/connector.js")"></script>
+    <br>
+    <div class="center-container">
+        <a href="/Home/Index" target="" class="stylish-link">
+            Click here to Return
+        </a>
+    </div>
 </body>
 </html>
