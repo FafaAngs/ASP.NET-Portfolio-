@@ -98,3 +98,31 @@ background-color: #f4b17a;
         background-color: #edc651;
         color: darkred;
     }
+
+body.game-page { min-height: 100vh; margin: 0; color: #f8fafc; background: radial-gradient(circle at top, #1f3b2d, #0f172a 65%); font-family: Arial, Helvetica, sans-serif; }
+.game-shell { width: min(100% - 2rem, 34rem); margin: 0 auto; padding: 2rem 0 3rem; text-align: left; }
+.back-link { color: #bbf7d0; font-weight: 700; text-decoration: none; }
+.back-link:hover { color: #ffffff; text-decoration: underline; }
+.game-header { display: flex; justify-content: space-between; gap: 1rem; align-items: end; margin: 2rem 0 1rem; }
+.game-header h1 { margin: 0; font-size: clamp(3rem, 12vw, 5rem); line-height: 1; }
+.game-header p { margin: .5rem 0 0; color: #d1d5db; }
+.eyebrow { color: #86efac !important; font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.score-panel { min-width: 5.5rem; padding: .75rem 1rem; border-radius: .75rem; background: #334155; text-align: center; }
+.score-panel span { display: block; color: #cbd5e1; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.score-panel strong { font-size: 1.7rem; }
+.game-message { min-height: 1.5rem; margin: .75rem 0; color: #fef08a; font-weight: 700; }
+#board.board { display: grid; grid-template-columns: repeat(4, 1fr); gap: .55rem; width: 100%; height: auto; aspect-ratio: 1; margin: 0; padding: .55rem; border: 0; border-radius: 1rem; background: #334155; box-shadow: 0 1rem 3rem rgba(0, 0, 0, .28); }
+#board.board .tile { display: grid; width: auto; height: auto; min-width: 0; border: 0; border-radius: .55rem; place-items: center; color: #1f2937; background: rgba(226, 232, 240, .25); font-size: clamp(1.25rem, 7vw, 2.3rem); font-weight: 800; }
+#board.board .x2, #board.board .x4 { color: #334155; }
+#board.board .x8, #board.board .x16, #board.board .x32, #board.board .x64, #board.board .x128, #board.board .x256, #board.board .x512, #board.board .x1024, #board.board .x2048, #board.board .x4096, #board.board .x8192 { color: #ffffff; }
+.game-actions { display: flex; justify-content: center; margin: 1.25rem 0; }
+.game-actions button, .game-controls button { border: 0; border-radius: .6rem; color: #052e16; background: #86efac; cursor: pointer; font: inherit; font-weight: 800; }
+.game-actions button { padding: .8rem 1.25rem; }
+.game-actions button:hover, .game-controls button:hover { background: #bbf7d0; }
+.game-controls { display: grid; grid-template-columns: repeat(3, 3rem); justify-content: center; gap: .45rem; }
+.game-controls button { min-height: 3rem; font-size: 1.4rem; }
+.game-controls button:first-child { grid-column: 2; }
+.game-controls button:nth-child(2) { grid-column: 1; grid-row: 2; }
+.game-controls button:nth-child(3) { grid-column: 2; grid-row: 2; }
+.game-controls button:nth-child(4) { grid-column: 3; grid-row: 2; }
+@media (max-width: 480px) { .game-shell { width: min(100% - 1.25rem, 34rem); padding-top: 1.25rem; } .game-header { align-items: start; } .game-header p { font-size: .9rem; } .score-panel { min-width: 4.5rem; padding: .55rem .75rem; } }

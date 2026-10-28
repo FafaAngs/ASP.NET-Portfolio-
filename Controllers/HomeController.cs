@@ -6,37 +6,29 @@ namespace Portfolio.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult about()
+        public IActionResult About()
         {
-            return View();
+            return View("about");
         }
 
-
-        public IActionResult certificates()
+        public IActionResult Certificates()
         {
-            return View();
+            return View("certificates");
         }
 
-        public IActionResult services()
+        public IActionResult Services()
         {
-            return View();
+            return View("services");
         }
 
-        public IActionResult game()
+        public IActionResult Game()
         {
-            return View();
+            return View("game");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

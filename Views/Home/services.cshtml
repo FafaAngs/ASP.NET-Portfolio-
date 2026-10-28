@@ -1,5 +1,5 @@
 @{
-    Layout = "_Layout";  // Assuming your layout file is named "_Layout.cshtml"
+    ViewData["Title"] = "Services";
 }
 
 <div class="pagestitlecontainer spad set-bg" data-setbg="/images/headergreen.jpg">
@@ -9,7 +9,7 @@
                 <div class="pagestitletext">
                     <h2>My Services</h2>
                     <div class="pagestitlebutton">
-                        <a href="/Home/Index">Home</a>
+                        <a asp-controller="Home" asp-action="Index">Home</a>
                         <span>Services</span>
                     </div>
                 </div>

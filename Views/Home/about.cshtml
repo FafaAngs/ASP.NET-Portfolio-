@@ -1,5 +1,5 @@
 @{
-    Layout = "_Layout"; 
+    ViewData["Title"] = "About";
 }
 
 <div class="pagestitlecontainer spad set-bg" data-setbg="/images/headergreen.jpg">
@@ -9,7 +9,7 @@
                 <div class="pagestitletext">
                     <h2>About Me</h2>
                     <div class="pagestitlebutton">
-                        <a href="/Home/Index">Home</a>
+                        <a asp-controller="Home" asp-action="Index">Home</a>
                         <span>About</span>
                     </div>
                 </div>
@@ -30,8 +30,8 @@
                         <div class="col-lg-2">
                             <div class="discord-logo">
                                 <div class="logo-with-text">
-                                    <img src="/images/progPic/discord.png" alt="Discord Logo" class="img-fluid">
-                                    <span class="logo-text">Discord@example</span>
+                                    <img src="/images/progPic/discord.png" alt="Discord" class="img-fluid">
+                                    <span class="logo-text">angs3L</span>
                                 </div>
                             </div>
                         </div>
@@ -39,8 +39,8 @@
                         <div class="col-lg-2">
                             <div class="email-logo">
                                 <div class="logo-with-text">
-                                    <img src="/images/progPic/emaill.png" alt="Email Logo" class="img-fluid">
-                                    <span class="logo-text">Angilbert@example.com</span>
+                                    <img src="/images/progPic/emaill.png" alt="Email" class="img-fluid">
+                                    <a class="logo-text" href="mailto:angilbert.angcon@gmail.com">angilbert.angcon@gmail.com</a>
                                 </div>
                             </div>
                         </div>
@@ -86,12 +86,12 @@
 
 <div class="center-container">
     <img src="/images/progPic/2048gif.gif" alt="Game GIF" class="gif-image">
-    <a href="/Home/game" target="" class="stylish-link">
+    <a asp-controller="Home" asp-action="Game" class="stylish-link">
         PLAY my game
     </a>
     <br>
     <br>
-    <a href="https://angcon.likesyou.org" target="_blank" class="stylish-link">
+    <a href="https://angcon.likesyou.org" target="_blank" rel="noopener noreferrer" class="stylish-link">
         Visit my E-Commerce Website
     </a>
 

@@ -5,14 +5,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"] - Angilbert's Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Angilbert Angcon's portfolio for software, web, and game development." />
+    <title>@ViewData["Title"] | Angilbert Angcon</title>
     <link rel="icon" href="@Url.Content("~/images/aalogo.png")" type="image/png" />
     <link rel="stylesheet" href="@Url.Content("~/css/bootstrap.min.css")" />
-    <link rel="stylesheet" href="@Url.Content("~/css/font-awesome.min.css")" />
-    <link rel="stylesheet" href="@Url.Content("~/css/elegant-icons.css")" />
     <link rel="stylesheet" href="@Url.Content("~/css/owl.carousel.min.css")" />
-    <link rel="stylesheet" href="@Url.Content("~/css/magnific-popup.css")" />
     <link rel="stylesheet" href="@Url.Content("~/css/slicknav.min.css")" />
     <link rel="stylesheet" href="@Url.Content("~/css/style.css")" />
 </head>
@@ -27,17 +26,17 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="headerLogo">
-                        <a href="/"><img src="@Url.Content("~/images/aalogo.png")" alt="Angilbert's Logo" /></a>
+                        <a asp-controller="Home" asp-action="Index" aria-label="Angilbert Angcon home"><img src="~/images/aalogo.png" alt="Angilbert Angcon logo" /></a>
                     </div>
                 </div>
                 <div class="col-lg-10">
                     <div class="HeaderNavOption">
-                        <nav class="HeaderNavMenu mobile-menu">
+                        <nav class="HeaderNavMenu mobile-menu" aria-label="Primary navigation">
                             <ul>
-                                <li> <a href="/">Home</a></li>
-                                <li><a href="/Home/about">About Me</a></li>
-                                <li><a href="/Home/certificates">Certificates</a></li>
-                                <li><a href="/Home/services">Services</a></li>
+                                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                                <li><a asp-controller="Home" asp-action="About">About</a></li>
+                                <li><a asp-controller="Home" asp-action="Certificates">Certificates</a></li>
+                                <li><a asp-controller="Home" asp-action="Services">Services</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -51,16 +50,11 @@
         @RenderBody()
     </main>
 
-    <footer>
-    </footer>
-
     <script src="@Url.Content("~/js/jquery-3.3.1.min.js")"></script>
-    <script src="@Url.Content("~/js/bootstrap.min.js")"></script>
-    <script src="@Url.Content("~/js/jquery.magnific-popup.min.js")"></script>
     <script src="@Url.Content("~/js/mixitup.min.js")"></script>
-    <script src="@Url.Content("~/js/masonry.pkgd.min.js")"></script>
     <script src="@Url.Content("~/js/jquery.slicknav.js")"></script>
     <script src="@Url.Content("~/js/owl.carousel.min.js")"></script>
     <script src="@Url.Content("~/js/connector.js")"></script>
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -1,0 +1,16 @@
+@model ErrorViewModel
+@{
+    ViewData["Title"] = "Something went wrong";
+}
+
+<section class="spad">
+    <div class="container text-center">
+        <h1>Something went wrong</h1>
+        <p>We could not complete that request. Please return to the home page and try again.</p>
+        <a class="stylish-link" asp-controller="Home" asp-action="Index">Return home</a>
+        @if (Model.ShowRequestId)
+        {
+            <p class="mt-4"><small>Request ID: @Model.RequestId</small></p>
+        }
+    </div>
+</section>
